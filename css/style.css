@@ -214,3 +214,56 @@ color: #FFF;
         margin-bottom: 0;
     }
 }
+
+.container {
+    max-width: 1280px;
+}
+
+header {
+    min-height: 500px;
+    padding: 70px 90px 0;
+}
+
+.header_button {
+    width: 220px;
+    height: 64px;
+    border-radius: 32px;
+    transition: background-color .3s ease,
+                color .3s ease,
+                transform .3s ease,
+                box-shadow .3s ease;
+}
+.header_button:hover {
+    background-color: #222;
+    color: #fff;
+    transform: scale(.95);
+    box-shadow: 0 0 0 6px rgba(70, 148, 220, .25);
+}
+
+.services_item {
+    transition: transform .35s ease;
+}
+.services_item:hover {
+    transform: translateY(6px);
+}
+.services_img {
+    transition: transform .35s ease, filter .35s ease;
+}
+.services_item:hover .services_img {
+    transform: rotate(-15deg) scale(1.2);
+    filter: drop-shadow(0 6px 12px rgba(70, 148, 220, .5));
+}
+
+
+.talent_avatar {
+    border-radius: 12px;
+    width: 64px;
+    height: 64px;
+}
+.talent_card {
+    transition: transform .3s ease, background-color .3s ease;
+}
+.talent_card:hover {
+    transform: scale(1.03);
+    background-color: #f4f9ff;
+}
